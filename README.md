@@ -29,3 +29,5 @@ and also the contract address is updated when you deploy using deploy.js
     "contractAddress": "0x00000000000000000000000000000000020c0ebc"
   }
 ```
+
+To check your transactions in hedera you can go to dragon glass https://testnet.dragonglass.me/hedera
