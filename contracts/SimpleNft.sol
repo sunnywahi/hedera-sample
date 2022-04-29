@@ -48,4 +48,8 @@ contract SimpleNft is ERC721Enumerable, Ownable {
         (bool success, ) = (msg.sender).call{value:balance}("");
         require(success, "Transfer failed.");
     }
+
+    function getTokenUri() public view returns(string memory){
+        return baseTokenURI;
+    }
 }
