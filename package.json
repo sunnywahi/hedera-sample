@@ -1,0 +1,32 @@
+{
+  "name": "hedera-sample",
+  "version": "1.0.0",
+  "description": "Sample project to interact with hedera",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node scripts/deploy.js",
+    "mint-nft" : "node scripts/mint-nft.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnywahi/hedera-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnywahi/hedera-sample/issues"
+  },
+  "homepage": "https://github.com/sunnywahi/hedera-sample#readme",
+  "devDependencies": {
+    "hardhat": "^2.9.0"
+  },
+  "dependencies": {
+    "@hashgraph/hethers": "^1.0.3",
+    "@hashgraph/sdk": "^2.10.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "bignumber.js": "^9.0.2",
+    "dotenv": "^16.0.0"
+  }
+}

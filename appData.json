@@ -1,0 +1,11 @@
+{
+  "accounts": {
+    "deploy": {
+      "accountId": "0.0.34344242",
+      "privateKey": "0x8bacb2c8c048558136c950cc69cb7e4690fac834dc509364a70efba155d1a586"
+    }
+  },
+  "contracts": {
+    "contractAddress": "0x00000000000000000000000000000000020c0ebc"
+  }
+}
